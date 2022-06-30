@@ -1,0 +1,18 @@
+{
+	"Portifolio": {
+		"prefix": "rcc",
+		"body": [
+		  "function App() {",
+		  "  return (",
+		  "    <div>",
+		  "      <h1>Oh Fuck!</h1>",
+		  "    </div>",
+		  "  );",
+		  "}",
+		  "",
+		  "export default App;",
+		  ""
+		],
+		"description": "Portifolio"
+	  }
+}
