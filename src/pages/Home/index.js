@@ -1,4 +1,3 @@
-import { FaReact } from "react-icons/fa";
 import './style.css'
 
 function Home() {
@@ -7,7 +6,7 @@ function Home() {
     <section>
       <div className="landing p-4 text-white text-center d-flex align-items-center justify-content-center flex-column">
         <h1 className='main-name mt-5'>Rodrigo Silva Regis</h1>
-        <p className='sub-name'>MERN Developer <span className="react-logo"><FaReact/></span></p>
+        <p className='sub-name'>MERN Developer</p>
       </div>
       <div className='p-4'>
         <img className='img-fluid img-logo' src={require('../../assets/img/cadastro.jpg')} alt='Foto Rodrigo Silva Regis'/>
