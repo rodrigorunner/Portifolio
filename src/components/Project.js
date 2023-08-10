@@ -3,6 +3,7 @@ const Project = ({ title }) => {
         <>
             <h3>{title}</h3>
             <div className="row projects">
+
                 <div className="col-sm-12 mb-2 col-md-4 text-center">
                     <h5>ReactJS Frontend</h5>
                     <ul className="list-group">
@@ -25,7 +26,8 @@ const Project = ({ title }) => {
                         </li>
                     </ul>
                 </div>
-                <div className="col-sm-12 col-md-4 text-center">
+
+                <div className="col-sm-12 col-md-4 mb-3 text-center">
                     <h5>Backend</h5>
                     <ul className="list-group">
                         <li className="list-group-item">
