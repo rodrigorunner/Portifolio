@@ -12,3 +12,7 @@
 <p>O projeto é simples porém foi utilizado técnicas como Mobile First pensando na responsividade, comunicação de pai para filho nos componentes react e consumo de bibliotecas externas, por exemplo, fontawesome e google fonts.</p>
 
 <p>O HTML foi estruturado de forma semântica e a CSS retira os valores default dos navegadores. </p>
+
+<p>
+  <strong>Obs: </strong><i>o deploy da aplicação está sendo realizado de forma integrada.</i>
+</p>
