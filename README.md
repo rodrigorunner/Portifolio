@@ -1,5 +1,3 @@
-Projeto criado com ReactJS para colocar em prática o que venho estudando e me candidatar em vagas de Desenvolvedor ReactJS Jr. 
-
 <h1>Instalação</h1>
 
 <strong>Obs: </strong> Será necessário ter Node >= 14.0.0 and npm >= 5.6 na sua máquina.
