@@ -1,7 +1,5 @@
 Projeto criado com ReactJS para colocar em prática o que venho estudando e me candidatar em vagas de Desenvolvedor ReactJS Jr. 
 
-![port](https://user-images.githubusercontent.com/55710562/176758902-06ffb2dc-d18a-4336-93d4-3be16d7d2cc3.png)
-
 <h1>Instalação</h1>
 
 <strong>Obs: </strong> Será necessário ter Node >= 14.0.0 and npm >= 5.6 na sua máquina.
@@ -11,3 +9,6 @@ Projeto criado com ReactJS para colocar em prática o que venho estudando e me c
   <li>Instale os pacotes do projeto rodando <strong>npm install;</strong></li>
   <li>Inicie o servidor com o comando <strong>npm start.</strong></li>
 </ul>
+
+<h3>Explicando o Projeto</h3>
+<p>O projeto é simples porém foi utilizado técnicas como Mobile First pensando na responsividade, comunicação de pai para filho nos componentes react e consumo de bibliotecas externas, por exemplo, fontawesome e google fonts.</p>
