@@ -1,10 +1,27 @@
+import { useEffect, useState } from "react"
 import Header from "./components/Header"
 import Project from "./components/Project"
 import Tech from "./components/Tech"
 import Footer from "./components/Footer"
+import Loader from "./components/Loader"
 import "./index"
 
+
 const App = () => {
+  const [loading, setLoading] = useState(false)
+
+  useEffect(() => {
+
+    setTimeout(() => {
+      setLoading(true)
+    }, 1000)
+
+  })
+
+  if(!loading) {
+    return <Loader />
+  }
+
   return (
     <section>
       <Header name={"Rodrigo Silva Regis"}/>
