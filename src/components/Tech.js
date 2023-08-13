@@ -1,8 +1,8 @@
 const Tech = ({ title }) => {
     return(
-        <>
+        <div>
             <h3>{title}</h3>
-            <div className="row text-center">
+            <div className="row text-center mt-5">
                 <div className="col-sm-12 col-md-4">
                     <h5>Frontend</h5>
                     <p><i className="fa-brands fa-html5 fa-flip text-danger fa-2xl"></i></p>
@@ -16,11 +16,11 @@ const Tech = ({ title }) => {
                 <div className="col-sm-12 col-md-4">
                     <h5>Database</h5>
                     <p><i className="fa-sharp fa-solid fa-database bg-primary text-primary fa-spin fa-2xl"></i></p>
-                    <p><i className="mt-2 fa-solid fa-table fa-spin bg-primary text-primary fa-spin-reverse fa-2xl"></i></p>
+                    <p className="mt-4"><i className="fa-solid fa-table fa-spin bg-primary text-primary fa-spin-reverse fa-2xl"></i></p>
                 </div>
             </div>
         
-        </>
+        </div>
     )
 }
 

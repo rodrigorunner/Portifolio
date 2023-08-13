@@ -1,0 +1,22 @@
+.home {
+    background: rgb(6,2,93);
+    background: linear-gradient(14deg, rgba(6,2,93,1) 0%,
+    rgba(27,65,149,1) 25%, rgba(36,4,107,1) 50%,
+    rgba(0,9,255,0.8463760504201681) 75%);
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; 
+}
+
+.home h1 {
+    font-size: 50px;
+}
+
+.home p {
+    font-size: 24px;
+}
+

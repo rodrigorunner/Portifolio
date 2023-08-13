@@ -1,6 +1,6 @@
 const Project = ({ title }) => {
     return(
-        <>
+        <div className="mt-5">
             <h3>{title}</h3>
             <div className="row projects">
 
@@ -48,7 +48,7 @@ const Project = ({ title }) => {
                     </ul>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 
