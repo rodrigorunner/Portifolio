@@ -23,7 +23,7 @@ const Project = (props) => {
                         <li className="list-group-item">
                             <a href="https://github.com/rodrigorunner/Rodrigo-Regis/tree/main/reactjs/reservas">Hotel Reserve</a> 
                         </li>
-                    </ul>
+                    </ul>                          
                 </div>
 
                 <div className="col-sm-12 col-md-4 mb-3 text-center">
