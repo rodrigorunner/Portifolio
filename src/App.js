@@ -26,24 +26,20 @@ const App = () => {
   return (
     <section>
       <Header name={"Rodrigo Silva Regis"}/>
-
+  
       <div id="home" className="home p-3">
         <Home />
       </div>
 
-      <div className="container" data-spy="scroll" data-target="#nav-scroll" data-offset="0">
+      <div id="projects" className="container mt-3 projects">
+        <Project title={"Projects"} />
+      </div>
+     
+      <div id="soft" className="container mt-3 bg-dark text-white p-3 rounded">
+        <Tech title={"Soft Skills"}/>
+      </div>
 
-          <div id="projects" className="bg-light p-2">
-            <Project title={"Projects"} />
-          </div>
-
-          <div id="soft" className="mt-3 bg-dark text-white p-2">
-            <Tech title={"Soft Skills"}/>
-          </div>
-
-       </div>
-
-       <Footer />
+      <Footer />
     </section>
   );
 }

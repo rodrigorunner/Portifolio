@@ -1,10 +1,9 @@
-const Project = ({ title }) => {
-    return(
-        <div className="mt-5">
-            <h3>{title}</h3>
-            <div className="row projects">
+import "./project.css"
 
-                <div className="col-sm-12 mb-2 col-md-4 text-center">
+const Project = (props) => {
+    return(
+            <div className="row">
+                <div id="projects" className="col-sm-12 mb-2 col-md-4 mt-2 text-center">
                     <h5>ReactJS Frontend</h5>
                     <ul className="list-group">
                         <li className="list-group-item">
@@ -48,7 +47,6 @@ const Project = ({ title }) => {
                     </ul>
                 </div>
             </div>
-        </div>
     )
 }
 

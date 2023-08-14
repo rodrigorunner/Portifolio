@@ -4,14 +4,13 @@ const Home = () => {
     return(
         <div className="container">
             <div className="row">
-                <div className="col-md-6 mx-auto">
+                <div>
                     <h1 className="mb-3">Rodrigo Silva Regis</h1>
-                    <p>Desenvolvedor <i className="fa-sharp fa-solid fa-circle-nodes fa-fade fa-2xl"></i> Web</p>
+                    <p>Web <i className="fa-sharp fa-solid fa-circle-nodes fa-fade fa-2xl"></i> Developer</p>
                 </div>
             </div>
-            <a href="#projects" className="btn btn-dark" >Projects</a>
+            <a href="#projects" className="btn btn-dark">Projects</a>
         </div>
-  
     )
 }
 
