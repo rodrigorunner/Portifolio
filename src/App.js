@@ -31,7 +31,7 @@ const App = () => {
         <Home />
       </div>
 
-      <div id="projects" className="container mt-3 projects">
+      <div id="projects" className="container mt-4 projects">
         <Project title={"Projects"} />
       </div>
      
