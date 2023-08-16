@@ -1,8 +1,9 @@
 import "./project.css"
 
-const Project = (props) => {
+const Project = ({ title }) => {
     return(
             <div className="row">
+                <h3>{title}</h3>
                 <div id="projects" className="col-sm-12 mb-2 col-md-4 mt-2 text-center">
                     <h5>ReactJS Frontend</h5>
                     <ul className="list-group">
