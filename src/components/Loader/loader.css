@@ -1,0 +1,13 @@
+.loader {
+   position: absolute;
+   top: 50%;
+   left: 25%;
+}
+
+@media(min-width: 600px) {
+    .loader {
+        position: absolute;
+        top: 50%;
+        left: 42%;
+     }
+}
